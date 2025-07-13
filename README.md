@@ -1,3 +1,1 @@
 A personal portfolio website, a work in progress...
-
-Live link- https://my-portfolio-one-phi-76.vercel.app/
