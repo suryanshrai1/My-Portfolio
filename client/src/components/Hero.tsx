@@ -46,8 +46,8 @@ export default function Hero() {
   };
 
   return (
-    <section 
-      id="home" 
+    <section
+      id="home"
       ref={ref}
       className="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8 relative"
     >
@@ -59,21 +59,21 @@ export default function Hero() {
               <i className="fas fa-user text-4xl text-gray-400"></i>
             </div>
           </div>
-          
+
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
             Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">Suryansh Rai</span>
           </h1>
-          
+
           <div className="text-xl sm:text-2xl lg:text-3xl text-gray-600 dark:text-gray-300 mb-8 h-20 flex items-center justify-center">
             <span>{displayText}</span>
             <span className="animate-pulse ml-1">|</span>
           </div>
-          
+
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto">
-            Passionate about creating innovative web solutions and exploring the latest technologies. 
+            Passionate about creating innovative web solutions and exploring the latest technologies.
             Currently in my second year of Computer Science Engineering, building my expertise in modern web development.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <button
               onClick={() => scrollToSection("projects")}
@@ -88,24 +88,30 @@ export default function Hero() {
               Get In Touch
             </button>
           </div>
-          
+
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-2xl text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">
+            <a href="https://github.com/suryanshrai1/" className="text-2xl text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">
               <i className="fab fa-github"></i>
             </a>
-            <a href="#" className="text-2xl text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/suryanshrai1/" className="text-2xl text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">
               <i className="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=raisurya558899@gmail.com&su=&body="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110"
+            >
+              <i className="fas fa-envelope"></i>
             </a>
             <a href="#" className="text-2xl text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="#" className="text-2xl text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">
-              <i className="fas fa-envelope"></i>
-            </a>
+
           </div>
         </div>
-        
+
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-gentle">
           <i className="fas fa-chevron-down text-2xl text-gray-400"></i>

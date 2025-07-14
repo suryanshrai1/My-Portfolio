@@ -121,18 +121,18 @@ export default function Contact() {
             <div>
               <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-4">Follow Me</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:scale-110">
+                <a href="https://github.com/suryanshrai1/" className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:scale-110">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="#" className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:scale-110">
+                <a href="https://www.linkedin.com/in/suryanshrai1/" className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:scale-110">
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="#" className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:scale-110">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#" className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:scale-110">
+                {/* <a href="#" className="w-12 h-12 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center text-gray-600 dark:text-gray-400 hover:bg-blue-600 hover:text-white transition-all duration-200 transform hover:scale-110">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
