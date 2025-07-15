@@ -45,6 +45,9 @@ export default function Hero() {
     }
   };
 
+  // ✅ Direct image link (not album) + proxy
+    const profilePicURL = "https://i.imgur.com/6ux1uNp.jpeg";
+
   return (
     <section
       id="home"
@@ -53,12 +56,17 @@ export default function Hero() {
     >
       <div className="max-w-7xl mx-auto text-center">
         <div className={`transition-all duration-1000 ${isIntersecting ? 'animate-fade-in' : 'opacity-0'}`}>
-          {/* Profile Image Placeholder */}
+          {/* Profile Image without Proxy */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1">
-            <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-              <i className="fas fa-user text-4xl text-gray-400"></i>
+            <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
+              <img
+                src={profilePicURL}
+                alt="Profile"
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
           </div>
+
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
             Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">Suryansh Rai</span>
@@ -105,10 +113,6 @@ export default function Hero() {
             >
               <i className="fas fa-envelope"></i>
             </a>
-            <a href="#" className="text-2xl text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">
-              <i className="fab fa-twitter"></i>
-            </a>
-
           </div>
         </div>
 
