@@ -14,7 +14,7 @@ const projects = [
       "Responsive Design",
       "Toast Notifications"
     ],
-    image: "https://raw.githubusercontent.com/suryanshrai1/Alumni-Network-Platform/main/public/banner.png",
+    image: "https://private-user-images.githubusercontent.com/151069189/467098895-c2db0b79-b144-4507-b00c-cc858d505a6f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI2ODAyMzAsIm5iZiI6MTc1MjY3OTkzMCwicGF0aCI6Ii8xNTEwNjkxODkvNDY3MDk4ODk1LWMyZGIwYjc5LWIxNDQtNDUwNy1iMDBjLWNjODU4ZDUwNWE2Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxNlQxNTMyMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hN2I0YzFkODYyMjRmNmFjZGMxMDU2OTc0NWZlYjZjMDlkYjVlYTIzMzBhNTRlZmFjN2JmYTE1OTQ4ZTkyNTJlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ctwTqq4dgXyvaK8D7r9ABo6lEx2AboBw4UflbcakKeE",
     tags: ["React", "Supabase", "Vite", "CSS Modules"],
     githubUrl: "https://github.com/suryanshrai1/Alumni-Network-Platform",
     liveUrl: "https://alumni-network-platform-six.vercel.app/"
@@ -32,7 +32,7 @@ const projects = [
       "Memory panel for context retention",
       "Fully responsive frontend with Tailwind CSS"
     ],
-    image: "https://raw.githubusercontent.com/suryanshrai1/kira-ai-chatbot/main/static/kira-banner.png", // Use a placeholder or update if you have a banner
+    image: "https://github.com/user-attachments/assets/e7cc778f-4769-4dc2-9911-00cc1801f9d2", // Use a placeholder or update if you have a banner
     tags: ["Python", "Flask", "HTML", "CSS", "Tailwind CSS", "JavaScript", "Google Gemini API"],
     githubUrl: "https://github.com/suryanshrai1/kira-ai-chatbot",
     liveUrl: "#" // No public demo link provided
@@ -49,7 +49,7 @@ const projects = [
       "Fully responsive UI",
       "Persistent leaderboard (LocalStorage)"
     ],
-    image: "https://raw.githubusercontent.com/suryanshrai1/quizrush/main/public/banner.png",
+    image: "https://private-user-images.githubusercontent.com/151069189/455278612-4d21b521-e871-4576-a1ea-fd93eefedf3e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI2NzkwMjcsIm5iZiI6MTc1MjY3ODcyNywicGF0aCI6Ii8xNTEwNjkxODkvNDU1Mjc4NjEyLTRkMjFiNTIxLWU4NzEtNDU3Ni1hMWVhLWZkOTNlZWZlZGYzZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxNlQxNTEyMDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YzYxZWMyNjIzY2I0OWRkODBkMmZlZWQwZjRhZjFlNDEzY2QzNDdmNGJlNzBjZDU3YTU5ZmVkOWI1YmRmOTUwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.YLwVF3J5MzRBaM11eoDI6pLwCLsFQT_lV_9jNEImof4",
     tags: ["React", "Tailwind CSS", "JavaScript"],
     githubUrl: "https://github.com/suryanshrai1/quizrush",
     liveUrl: "https://quiz-rush-gamma.vercel.app/"
@@ -66,7 +66,7 @@ const projects = [
       "Persistent data (LocalStorage)",
       "Responsive, stylish UI"
     ],
-    image: "https://raw.githubusercontent.com/suryanshrai1/SpendSense/main/public/banner.png",
+    image: "https://github.com/user-attachments/assets/43e4f091-9e5a-4030-9e9b-7b244e4c16fe",
     tags: ["HTML", "Tailwind CSS", "JavaScript", "Chart.js"],
     githubUrl: "https://github.com/suryanshrai1/SpendSense",
     liveUrl: "https://suryanshrai1.github.io/SpendSense/"
@@ -83,7 +83,7 @@ const projects = [
       "Employer tools & admin panel",
       "Notifications & real-time updates"
     ],
-    image: "https://raw.githubusercontent.com/suryanshrai1/joburio/main/public/banner.png",
+    image: "https://raw.githubusercontent.com/suryanshrai1/Joburio/main/image-1.png",
     tags: ["React", "Vite", "TypeScript", "Tailwind CSS", "React Query"],
     githubUrl: "https://github.com/suryanshrai1/joburio",
     liveUrl: "https://joburio.vercel.app/"
@@ -100,7 +100,7 @@ const projects = [
       "Blockchain explorer",
       "RLS security & JWT auth"
     ],
-    image: "https://raw.githubusercontent.com/suryanshrai1/Community-Messaging/main/public/banner.png",
+    image: "https://github.com/user-attachments/assets/efee30c2-a7e2-43f7-a48b-de039d50a42d",
     tags: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS", "Blockchain"],
     githubUrl: "https://github.com/suryanshrai1/Community-Messaging",
     liveUrl: "https://community-messaging.vercel.app/"
