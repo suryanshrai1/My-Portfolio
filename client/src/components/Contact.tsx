@@ -150,7 +150,7 @@ export default function Contact() {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white transition-colors duration-200"
-                    placeholder="John"
+                    placeholder="Rishi"
                   />
                   {errors.firstName && (
                     <p className="mt-1 text-sm text-red-600">{errors.firstName.message}</p>
@@ -165,7 +165,7 @@ export default function Contact() {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white transition-colors duration-200"
-                    placeholder="Doe"
+                    placeholder="Pandey"
                   />
                   {errors.lastName && (
                     <p className="mt-1 text-sm text-red-600">{errors.lastName.message}</p>
@@ -182,7 +182,7 @@ export default function Contact() {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white transition-colors duration-200"
-                  placeholder="john@example.com"
+                  placeholder="rishi@example.com"
                 />
                 {errors.email && (
                   <p className="mt-1 text-sm text-red-600">{errors.email.message}</p>
